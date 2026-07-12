@@ -185,12 +185,15 @@ footer .brand img{height:40px;filter:brightness(0) invert(.92)}
 
 /* ---------- responsive ---------- */
 @media(max-width:900px){
-  .hero-grid{grid-template-columns:1fr}
-  .hero-logo{justify-content:flex-start}
-  .hero-logo img{max-height:200px}
+  .topbar{height:64px}
+  .brand img{height:38px}
+  .hero{padding:48px 0 64px}
+  .sec{padding:64px 0}
+  .hero-grid{grid-template-columns:1fr;gap:0}
+  .hero-logo{display:none}
   .pillars,.contact-grid{grid-template-columns:1fr}
   .fgrid{grid-template-columns:1fr 1fr}
-  nav.main{display:none;position:absolute;top:84px;inset-inline:0;background:var(--paper);flex-direction:column;gap:2px;border-bottom:1px solid var(--line);padding:12px 28px 20px}
+  nav.main{display:none;position:absolute;top:64px;inset-inline:0;background:var(--paper);flex-direction:column;gap:2px;border-bottom:1px solid var(--line);padding:12px 28px 20px}
   nav.main.open{display:flex}
   nav.main a{padding:10px 0;font-size:16px}
   .menu-btn{display:block;margin-inline-start:auto}
